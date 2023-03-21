@@ -27,7 +27,7 @@ when we have only one result
         String query = "SELECT first_name, last_name, salary, job_id FROM employees where rownum<6";
 
         List<Map<String, Object>> queryData = DBUtils.getQueryResultMap(query);
-        //option+enter shortcut choose first after writing DBUtils.getQueryResultMap(query);
+        //alt+enter shortcut choose first after writing DBUtils.getQueryResultMap(query);
 
         //to print use foreach loop
         //print the result
